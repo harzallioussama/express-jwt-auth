@@ -13,11 +13,12 @@ const userRoute = require("./routes/user");
 
 app.use(express.json());
 app.use(cookieParser());
-app.use(sanitizer.clean({
-  xss: true,
-  sql: true
-}));
-
+app.use(
+  sanitizer.clean({
+    xss: true,
+    sql: true,
+  })
+);
 
 app.use(authRoute);
 app.use(userRoute);
