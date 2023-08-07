@@ -5,7 +5,7 @@ Authentication API using Express.js,, Mysql and JWT
 <ul>
 <li><a href="https://github.com/expressjs/express">Express</a></li>
 <li><a href="https://github.com/sidorares/node-mysql2">Mysql2</a></li>
-<li><a href="https://jwt.io">Express</a></li>
+<li><a href="https://jwt.io">Jwt</a></li>
 </ul>
 
 ## Setup
