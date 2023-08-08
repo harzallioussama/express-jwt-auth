@@ -5,8 +5,8 @@ const sendEmail = async (option) => {
     host: "sandbox.smtp.mailtrap.io",
     prot: 25,
     auth: {
-      user: "cf94e2dfc93fcc",
-      pass: "0cb6b71a74c69e",
+      user: "mailTrapCredential",
+      pass: "mailTrapCredential",
     },
   });
   const mailOption = {
